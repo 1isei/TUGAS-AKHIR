@@ -50,7 +50,7 @@
         </div>
         <div class="card-body">
             <ul class="list-group list-group-flush">
-            @foreach    ($data->kontak_ as $k)
+            @foreach    ($data->kontak as $k)
             <li class="list-group-item">Contact: {{$k->desc_kontak}}</li>
             @endforeach
         </ul>
