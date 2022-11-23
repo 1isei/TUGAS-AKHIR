@@ -2,6 +2,7 @@
 @section('SB ADMIN' , 'SB AMIN')
 @section('title' , 'Master Contact')
 @section('content-title', 'Master Contact')
+@section('main')
 
 <div class="row">
     <div class="col-lg-12">
